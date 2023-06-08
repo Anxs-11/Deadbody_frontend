@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import Home from "./pages/home/home";
 import "./App.css";
 import Dashboard from "./pages/dashboard/dashboard";
-import React, { Component } from 'react';
+import React from 'react';
 
 function App() {
   return (

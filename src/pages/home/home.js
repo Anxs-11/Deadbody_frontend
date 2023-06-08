@@ -1,6 +1,6 @@
 import react from "react";
 import axios from "axios";
-import React, { Component } from 'react';
+import React from 'react';
 
 export default class Home extends react.Component {
   handleSubmit = (event, collection, operation) => {
