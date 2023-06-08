@@ -1,5 +1,6 @@
 import axios from "axios";
 import react from "react";
+import React, { Component } from 'react';
 
 export default class Dashboard extends react.Component {
   userForm = [
@@ -213,7 +214,7 @@ export default class Dashboard extends react.Component {
                           {input.type.map((type, index) => {
                             return (
                               <div className="flex-grow flex flex-row">
-                                {type === "select" && index == 0 ? (
+                                {type === "select" && index === 0 ? (
                                   <div className="md:flex-grow xs:w-full p-1">
                                     <select
                                       name={input.label}
@@ -373,7 +374,7 @@ export default class Dashboard extends react.Component {
                           {input.type.map((type, index) => {
                             return (
                               <div className="flex-grow flex flex-row">
-                                {type === "select" && index == 0 ? (
+                                {type === "select" && index === 0 ? (
                                   <div className="md:flex-grow xs:w-full p-1">
                                     <select
                                       name={input.label}
