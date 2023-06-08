@@ -1,6 +1,8 @@
 import react from "react";
 import axios from "axios";
 import React from 'react';
+// import "/Users/mohdanas/Desktop/DeadBody_Project/DeadBodyProject/frontend/src/App.css"
+// import "/Users/mohdanas/Desktop/DeadBody_Project/DeadBodyProject/frontend/src/index.css"
 
 export default class Home extends react.Component {
   handleSubmit = (event, collection, operation) => {
